@@ -13,7 +13,7 @@ Download the [Unity Engine](https://unity.com/). When installed, Microsoft Air S
 This guidebook assumes that users have prior knowledge of the basics of Unity -- i.e. creating GameObjects, C# scripts, physics properties and components, UI elements, and integrating assets from the Unity Asset store. Unity has very detailed documentation, which you can check out at: https://docs.unity3d.com/Manual/index.html
 
 ### Installing Microsoft Air Sim
-The github documentation for [AirSim](https://github.com/microsoft/AirSim/blob/master/Unity/README.md) includes intructions for installing the Car simulator but these instructions miss several steps. Thus we have included a more detailed set of instructions here detailing some common errors/ mistakes but many of the steps are paraphrased from the original documentation.
+The github documentation for [AirSim](https://github.com/microsoft/AirSim/blob/master/docs/Unity.md) includes intructions for installing the Car simulator but these instructions miss several steps. Thus we have included a more detailed set of instructions here detailing some common errors/ mistakes but many of the steps are paraphrased from the original documentation.
 
 #### Build AirSim
 * Install Visual Studios 2019.
@@ -30,7 +30,11 @@ The github documentation for [AirSim](https://github.com/microsoft/AirSim/blob/m
 
 * Once the repo is successfully cloned, go to the Air Sim directory using `cd AirSim`
 * Run `build.cmd` from the command line
-* KORRI: ADD RESOLUTION FOR FAILED BUILD HERE 
+* It is possible that your build will fail and ask that you: `install CMake by pressing any key`. 
+	* Press any key, then while going through the CMake setup wizard, Make sure you choose 'add to the path for this user' on setup (it is not the default choice)
+	* For resolving other CMake issues that might arise depending on your computer's advanced system settings, you can read [this thread](c.	https://github.com/microsoft/AirSim/issues/755)
+* Once you resolve these issues related to CMake, it is possible your build will fail again due to a warning that is interpreted as an error. [Here](https://github.com/microsoft/AirSim/issues/3136 ) is the solution and explanation of this error. Note: To access the XML file this solution references, just right click on that file and open with Notepad.
+* The Build should successfully run now.
 
 #### Build Unity Project
 * Go inside the AirSim\Unity directory: `cd Unity`.
