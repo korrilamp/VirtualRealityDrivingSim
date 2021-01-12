@@ -16,12 +16,21 @@ This guidebook assumes that users have prior knowledge of the basics of Unity --
 The github documentation for [AirSim](https://github.com/microsoft/AirSim/blob/master/Unity/README.md) includes intructions for installing the Car simulator but these instructions miss several steps. Thus we have included a more detailed set of instructions here detailing some common errors/ mistakes but many of the steps are paraphrased from the original documentation.
 
 #### Build AirSim
-* Install Visual Studios 2017 (it is important that VS 2017 is installed rather than  any of the more current versions of Visual Studio). Make sure to select VC++ and Windows SDK 8.1 while installing VS 2017.
-* Once installed, open the `x64 Native Tools Command Prompt for VS 2017` after Air Sim has downloaded.
+* Install Visual Studios 2019.
+	* During installation, select: "Desktop Development with C++", and "Windows 10 SDK 10.0.18362" (or most current match)
+* Once installed, open the `x64 Native Tools Command Prompt for VS 2019` after Air Sim has downloaded.
 	* This is different from the Windows Command Prompt.
-* Choose the directory you wish to download Air Sim into, then clone the repo: `git clone https://github.com/Microsoft/AirSim.git`
+* First, you need to change to your computer's root directory using `cd / .`. This step is necessary so that you have write permission to clone the repository. 
+* Make a new folder for these files on your computer using `mkdir YourFoldersName`.
+* Change into that folder using `cd YourFoldersName`
+* Now you will clone the Airsim repository to your local machine to the folder you just created using `git clone https://github.com/Microsoft/AirSim.git`
+	* If you are having issues using git commands, you may need to install git on your local machine. 
+	* If you are still encountering issues cloning the repository, you can go to advanced system settings and manually set your Path to point at your git 			   installation.  Inctructions for this can he found [here](https://stackoverflow.com/questions/4492979/git-is-not-recognized-as-an-internal-or-external-command )
+
+
 * Once the repo is successfully cloned, go to the Air Sim directory using `cd AirSim`
 * Run `build.cmd` from the command line
+* KORRI: ADD RESOLUTION FOR FAILED BUILD HERE 
 
 #### Build Unity Project
 * Go inside the AirSim\Unity directory: `cd Unity`.
