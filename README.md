@@ -71,4 +71,6 @@ Our simulator toolbox leverages Microsoft's open source project AirSim. The gith
 * Delete the original main camera object 
 * XR capabilities should now work! To test this, ensure your Rift S is connected and initialized within the Oculus desktop app, then just press play in the Unity editor.
 
-
+## Authors
+*As of 1/12/2020*
+This Repository is a forked repository of Priya Misner's original [Virtual Reality Driving Sim](https://github.com/p-misner/VirtualRealityDrivingSim) Documentation. Priya Misner, Julie Yeung, Stephanie Bentley, Caleb Jeanniton and myself were contributors to that original branch. This branch is appended with updated with my recent contributions. My current team members, Julie Yeung, Stephanie Bentley, Caleb Jeanniton, Barrett Roman, and Ioana Lupascu will be future contributers of this repository.  
