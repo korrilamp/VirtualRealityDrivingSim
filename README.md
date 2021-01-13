@@ -71,9 +71,4 @@ Our simulator toolbox leverages Microsoft's open source project AirSim. The gith
 * Delete the original main camera object 
 * XR capabilities should now work! To test this, ensure your Rift S is connected and initialized within the Oculus desktop app, then just press play in the Unity editor.
 
-Cheers!
-	
-
-
-
 
