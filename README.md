@@ -69,7 +69,7 @@ Our simulator toolbox leverages Microsoft's open source project AirSim. The gith
 * Change the tag of that camera to be the main camera in the scene. 
 * Right click on that camera, and go to `XR > Make XR Rig`, selecting 'Make XR Rig' so that this camera is comverted to one that will automatically adopt all of the backend functionality to be controlled by the VR headset's positional data. 
 * Delete the original main camera object 
-* XR capabilities should now work
+* XR capabilities should now work! Cheers!
 	
 
 
