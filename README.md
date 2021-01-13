@@ -1,7 +1,7 @@
 # Virtual Reality Driving Sim
 A guidebook for building and customizing a virtual reality driving simulator for use in human factors and psychology research
 ## How To Use This Project
-We encourage any students who hope to conduct research on autonomous driving in virtual reality to use our documentation as a toolbox to get their projects started. You can follow the instructions below to get the simulator's core base and components up. In the folders of the repository are more specific components that you can integrate into your simulator as needed. Please contact me, [Korri Lampedusa](korri.lampedusa@tufts.edu) if you have any questions about this repository or how to use it. 
+We encourage any students who hope to conduct research on autonomous driving in virtual reality to use our documentation as a toolbox to get their projects started. You can follow the instructions below to get the simulator's core base and components up. In the folders of the repository are more specific components that you can integrate into your simulator as needed. Please contact me, Korri Lampedusa (korri.lampedusa@tufts.edu) if you have any questions about this repository or how to use it. 
 ## Getting Started
 These instructions will walk you through how to install Microsoft Air Sim in Unity and the project files  up and running on your local machine for development and testing purposes.
 
