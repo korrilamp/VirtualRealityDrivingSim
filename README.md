@@ -32,7 +32,8 @@ The github documentation for [AirSim](https://github.com/microsoft/AirSim/blob/m
 * Run `build.cmd` from the command line
 * It is possible that your build will fail and ask that you: `install CMake by pressing any key`. 
 	* Press any key, then while going through the CMake setup wizard, Make sure you choose 'add to the path for this user' on setup (it is not the default choice)
-	* For resolving other CMake issues that might arise depending on your computer's advanced system settings, you can read [this thread](hhttps://github.com/microsoft/AirSim/issues/755)
+	* For resolving other CMake issues that might arise depending on your computer's advanced system settings, you can read 
+	[this thread](https://github.com/microsoft/AirSim/issues/755)
 * Once you resolve these issues related to CMake, it is possible your build will fail again due to a warning that is interpreted as an error. [Here](https://github.com/microsoft/AirSim/issues/3136 ) is the solution and explanation of this error. Note: To access the XML file this solution references, just right click on that file and open with Notepad.
 * The Build should successfully run now.
 
