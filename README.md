@@ -12,7 +12,7 @@ Download the [Unity Engine](https://unity.com/). When installed, Microsoft Air S
 ### Background Knowledge
 This guidebook assumes that users have prior knowledge of the basics of Unity -- i.e. creating GameObjects, C# scripts, physics properties and components, UI elements, and integrating assets from the Unity Asset store. Unity has very detailed documentation, which you can check out at: https://docs.unity3d.com/Manual/index.html
 
-### Installing Microsoft Air Sim
+### Installing Microsoft AirSim
 The github documentation for [AirSim](https://github.com/microsoft/AirSim/blob/master/docs/Unity.md) includes intructions for installing the Car simulator but these instructions miss several steps. Thus we have included a more detailed set of instructions here detailing some common errors/ mistakes but many of the steps are paraphrased from the original documentation.
 
 #### Build AirSim
@@ -25,7 +25,7 @@ The github documentation for [AirSim](https://github.com/microsoft/AirSim/blob/m
 * Change into that folder using `cd YourFoldersName`
 * Now you will clone the Airsim repository to your local machine to the folder you just created using `git clone https://github.com/Microsoft/AirSim.git`
 	* If you are having issues using git commands, you may need to install git on your local machine. 
-	* If you are still encountering issues cloning the repository, you can go to advanced system settings and manually set your Path to point at your git 			   installation.  Inctructions for this can he found [here](https://stackoverflow.com/questions/4492979/git-is-not-recognized-as-an-internal-or-external-command )
+	* If you are still encountering issues cloning the repository, you can go to advanced system settings and manually set your Path to point at your git 			   installation.  Inctructions for this can he found [here](https://stackoverflow.com/questions/4492979/git-is-not-recognized-as-an-internal-or-external-command)
 
 
 * Once the repo is successfully cloned, go to the Air Sim directory using `cd AirSim`
