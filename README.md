@@ -18,7 +18,7 @@ This guidebook assumes that users have prior knowledge of the basics of Unity --
 Our simulator toolbox leverages Microsoft's open source project AirSim. The github documentation for [AirSim](https://github.com/microsoft/AirSim/blob/master/docs/Unity.md) includes intructions for installing the Car simulator but these instructions miss several steps. Thus we have included a more detailed set of instructions here detailing some common errors/ mistakes but many of the steps are paraphrased from the original documentation.
 
 #### Build AirSim
-* Install Visual Studios 2019.
+* Install Visual Studio Code 2019.
 	* During installation, select: "Desktop Development with C++", and "Windows 10 SDK 10.0.18362" (or most current match)
 * Once installed, open the `x64 Native Tools Command Prompt for VS 2019` after Air Sim has downloaded.
 	* This is different from the Windows Command Prompt.
