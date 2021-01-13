@@ -39,7 +39,7 @@ Our simulator toolbox leverages Microsoft's open source project AirSim. The gith
 * Once you resolve these issues related to CMake, it is possible your build will fail again due to a warning that is interpreted as an error. [Here](https://github.com/microsoft/AirSim/issues/3136 ) is the solution and explanation of this error. Note: To access the XML file this solution references, just right click on that file and open with Notepad.
 * The Build should successfully run now.
 
-###Building Unity Project File 
+### Building Unity Project File 
 #### Build Unity Project
 * Go inside the AirSim\Unity directory: `cd Unity`.
 * Build the unity project by typing into the command line: `build.cmd`
