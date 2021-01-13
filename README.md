@@ -39,6 +39,7 @@ Our simulator toolbox leverages Microsoft's open source project AirSim. The gith
 * Once you resolve these issues related to CMake, it is possible your build will fail again due to a warning that is interpreted as an error. [Here](https://github.com/microsoft/AirSim/issues/3136 ) is the solution and explanation of this error. Note: To access the XML file this solution references, just right click on that file and open with Notepad.
 * The Build should successfully run now.
 
+###Building Unity Project File 
 #### Build Unity Project
 * Go inside the AirSim\Unity directory: `cd Unity`.
 * Build the unity project by typing into the command line: `build.cmd`
@@ -60,7 +61,7 @@ Our simulator toolbox leverages Microsoft's open source project AirSim. The gith
 	* Go to `Assets> NatureManufacture Assets - Trials Not Full Resolution> EasyRoads-HD_Add_On > RoadMaerials > Asphalt` and there will be 5 road materials present
 	* Click on any of the road materials and in the inspector, navigate down to the details Albedo Map and adjust the `Main Road Detail Albedo` value until the white patches dissappear.
 	
-#### Converting the project to a virtual reality compatible sim
+#### Converting the Standard 3D Project to a Virtual Reality Compatible Project
 * Once you have a file with the Windridge City asset properly built and running, there are a couple of steps necessary before your project will be compatible with a VR headset.
 * First, go to `Edit > Project Settings > XR Plug-In Management`, and check off `Initialize XR on Setup`. This step is what XR-enables the project.
 * Within that same tab, check off `Oculus` so that the project works with your Rift S. 
